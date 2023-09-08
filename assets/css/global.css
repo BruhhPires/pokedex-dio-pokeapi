@@ -25,3 +25,72 @@ body {
   }
 
 
+/* Estilos para o modal */
+#modal {
+    display: none; /* Por padrão, o modal está oculto */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para escurecer o fundo */
+    z-index: 9999; /* Certifique-se de que o modal esteja na parte superior */
+  }
+  
+  .modal-content {
+    background-color: #fff;
+    padding: 20px;
+    width: 80%;
+    max-width: 600px; /* Largura máxima do modal */
+    margin: 20px auto; /* Centralizar vertical e horizontalmente */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Estilos para fechar o modal (se você tiver um botão de fechar) */
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+  }
+  
+  /* Estilos para o conteúdo do modal (por exemplo, texto e imagem) */
+  .modal-content h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .modal-content p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .modal-content img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Estilos para o modal */
+#modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+  }
+  
+  .modal-content {
+    background-color: #fff;
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    position: relative; /* Para posicionar o botão de fechar */
+  }
+  
